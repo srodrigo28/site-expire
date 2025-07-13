@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treina-Dev - Transforme sua carreira em programação</title>
+    <meta name="description" content="Aprenda programação do zero ao avançado com a melhor plataforma de ensino em tecnologia do Brasil. Mais de 200.000 pessoas já mudaram suas vidas.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/lucide.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="persuasive-enhancements.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i data-lucide="rocket"></i>
+                    </div>
+                    <span class="logo-text">Treina-Dev</span>
+                </div>
+                
+                <nav class="nav">
+                    <a href="#" class="nav-link">Formações</a>
+                    <a href="#" class="nav-link">Cursos</a>
+                    <a href="#" class="nav-link">Eventos</a>
+                    <a href="#" class="nav-link">Blog</a>
+                    <a href="#" class="nav-link">Comunidade</a>
+                </nav>
+                
+                <div class="header-actions">
+                    <button class="btn btn-secondary">Entrar</button>
+                    <button class="btn btn-cta">Começar agora</button>
+                </div>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Transforme sua carreira em 
+                        <span class="text-gradient">programação</span>
+                    </h1>
+                    <p class="hero-description">
+                        Aprenda as tecnologias mais demandadas do mercado com uma metodologia prática e eficiente. 
+                        Mais de 200.000 pessoas já mudaram suas vidas conosco.
+                    </p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number">200k+</div>
+                            <div class="stat-label">Alunos</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">95%</div>
+                            <div class="stat-label">Satisfação</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Tecnologias</div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-actions">
+                        <button class="btn btn-cta-enhanced btn-large button-ripple">
+                            <i data-lucide="play"></i>
+                            Começar jornada gratuita
+                            <div class="urgency-badge">GRÁTIS</div>
+                        </button>
+                        <button class="btn btn-secondary btn-large">
+                            <i data-lucide="calendar"></i>
+                            Próximo evento
+                        </button>
+                    </div>
+                    
+                    <div class="hero-social-proof">
+                        <div class="social-proof-avatars">
+                            <div class="avatar"></div>
+                            <div class="avatar"></div>
+                            <div class="avatar"></div>
+                            <div class="avatar"></div>
+                            <div class="avatar-more">+200k</div>
+                        </div>
+                        <p class="social-proof-text">
+                            Junte-se a milhares de devs que já transformaram suas carreiras
+                        </p>
+                    </div>
+                    
+                    <!-- Enhanced Social Proof Section -->
+                    <div class="social-proof-enhanced">
+                        <div class="testimonial-carousel">
+                            <div class="testimonial-slide">
+                                <div class="testimonial-avatar">JS</div>
+                                <p class="testimonial-text">"Em 6 meses consegui minha primeira vaga como dev. A metodologia da Treina-Dev é incrível!"</p>
+                                <div class="testimonial-author">João Silva</div>
+                                <div class="testimonial-role">Frontend Developer na Nubank</div>
+                            </div>
+                        </div>
+                        
+                        <div class="achievement-badge">
+                            <i data-lucide="trophy"></i>
+                            +15.000 devs contratados em 2024
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="hero-card">
+                        <div class="card-header">
+                            <div class="card-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <span class="card-title">Seu futuro começa aqui</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="learning-progress">
+                                <div class="progress-header">
+                                    <span class="progress-title">JavaScript Fundamentals</span>
+                                    <span class="progress-percentage">100%</span>
+                                </div>
+                                <div class="progress-track">
+                                    <div class="progress-fill-animated" style="width: 100%"></div>
+                                </div>
+                            </div>
+                            <div class="learning-progress">
+                                <div class="progress-header">
+                                    <span class="progress-title">React.js Avançado</span>
+                                    <span class="progress-percentage">75%</span>
+                                </div>
+                                <div class="progress-track">
+                                    <div class="progress-fill-animated" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="learning-progress">
+                                <div class="progress-header">
+                                    <span class="progress-title">Node.js Backend</span>
+                                    <span class="progress-percentage">45%</span>
+                                </div>
+                                <div class="progress-track">
+                                    <div class="progress-fill-animated" style="width: 45%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Filters -->
+    <section class="filters-section">
+        <div class="container">
+            <div class="filters-header">
+                <h2>Explore por tecnologia</h2>
+                <p>Encontre o conteúdo perfeito para sua jornada</p>
+            </div>
+            
+            <div class="tech-filters" id="techFilters">
+                <button class="tech-pill active" data-tech="all">
+                    <i data-lucide="layers"></i>
+                    Todas
+                </button>
+                <button class="tech-pill" data-tech="javascript">
+                    <img src="assets/images/javascript-icon.png" alt="JavaScript">
+                    JavaScript
+                </button>
+                <button class="tech-pill" data-tech="react">
+                    <img src="assets/images/react-icon.png" alt="React">
+                    React
+                </button>
+                <button class="tech-pill" data-tech="angular">
+                    <img src="assets/images/angular-icon.png" alt="Angular">
+                    Angular
+                </button>
+                <button class="tech-pill" data-tech="nodejs">
+                    <img src="assets/images/nodejs-icon.png" alt="Node.js">
+                    Node.js
+                </button>
+                <button class="tech-pill" data-tech="python">
+                    <img src="assets/images/python-icon.png" alt="Python">
+                    Python
+                </button>
+                <button class="tech-pill" data-tech="java">
+                    <img src="assets/images/java-icon.png" alt="Java">
+                    Java
+                </button>
+            </div>
+            
+            <button class="clear-filters" id="clearFilters" style="display: none;">
+                <i data-lucide="x"></i>
+                Limpar filtros
+            </button>
+        </div>
+    </section>
+
+    <!-- Value Propositions Section -->
+    <section class="value-propositions-section">
+        <div class="container">
+            <div class="value-prop-grid">
+                <div class="value-prop-card card-hover-effect">
+                    <div class="value-prop-icon">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <h3 class="value-prop-title">Metodologia Prática</h3>
+                    <p class="value-prop-description">Aprenda fazendo projetos reais que você pode usar no seu portfólio profissional.</p>
+                </div>
+                
+                <div class="value-prop-card card-hover-effect">
+                    <div class="value-prop-icon">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3 class="value-prop-title">Comunidade Ativa</h3>
+                    <p class="value-prop-description">Mais de 200.000 devs para networking, dúvidas e oportunidades de carreira.</p>
+                </div>
+                
+                <div class="value-prop-card card-hover-effect">
+                    <div class="value-prop-icon">
+                        <i data-lucide="trending-up"></i>
+                    </div>
+                    <h3 class="value-prop-title">Carreira Acelerada</h3>
+                    <p class="value-prop-description">95% dos nossos alunos conseguem emprego em até 6 meses após a conclusão.</p>
+                </div>
+                
+                <div class="value-prop-card card-hover-effect">
+                    <div class="value-prop-icon">
+                        <i data-lucide="infinity"></i>
+                    </div>
+                    <h3 class="value-prop-title">Acesso Vitalício</h3>
+                    <p class="value-prop-description">Pague uma vez e tenha acesso para sempre, incluindo todas as atualizações.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-title">
+                    <i data-lucide="sparkles"></i>
+                    <h2>Novidades</h2>
+                </div>
+                <button class="btn btn-secondary">
+                    Ver mais
+                    <i data-lucide="arrow-right"></i>
+                </button>
+            </div>
+            
+            <div class="news-card">
+                <div class="news-date">
+                    <div class="date-number">11</div>
+                    <div class="date-month">JUL</div>
+                </div>
+                <div class="news-content">
+                    <h3>PHP - Finalizando o módulo de Livewire</h3>
+                    <p>Aprenda a criar interfaces dinâmicas e reativas com Livewire no PHP. Uma tecnologia que está revolucionando o desenvolvimento web.</p>
+                    <button class="btn btn-primary">
+                        Acessar conteúdo
+                        <i data-lucide="arrow-right"></i>
+                    </button>
+                </div>
+                <div class="news-badge">NOVO</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formations Section -->
+    <section class="formations-section">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <h2>Formações</h2>
+                    <p>Trilhas completas para dominar uma stack</p>
+                </div>
+                <button class="btn btn-secondary">
+                    Ver tudo
+                    <i data-lucide="arrow-right"></i>
+                </button>
+            </div>
+            
+            <div class="content-grid" id="formationsGrid">
+                <!-- Formations will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses-section">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <h2>Cursos</h2>
+                    <p>Aprenda tecnologias específicas com projetos práticos</p>
+                </div>
+                <button class="btn btn-secondary">
+                    Ver tudo
+                    <i data-lucide="arrow-right"></i>
+                </button>
+            </div>
+            
+            <div class="content-grid" id="coursesGrid">
+                <!-- Courses will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events-section">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <h2>Eventos</h2>
+                    <p>Experiências intensivas e transformadoras</p>
+                </div>
+                <button class="btn btn-secondary">
+                    Ver tudo
+                    <i data-lucide="arrow-right"></i>
+                </button>
+            </div>
+            
+            <div class="content-grid" id="eventsGrid">
+                <!-- Events will be populated by JavaScript -->
+            </div>
+            
+            <!-- Next Event CTA -->
+            <div class="next-event-cta">
+                <div class="cta-icon">
+                    <i data-lucide="zap"></i>
+                </div>
+                <h3>Não perca o próximo Ignite Lab</h3>
+                <p>3 dias intensivos de código, networking e muito aprendizado. Vagas limitadas e totalmente gratuito!</p>
+                
+                <!-- Countdown Timer -->
+                <div class="countdown-timer">
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="days">15</span>
+                        <span class="countdown-label">Dias</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="hours">08</span>
+                        <span class="countdown-label">Horas</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="minutes">42</span>
+                        <span class="countdown-label">Min</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="seconds">30</span>
+                        <span class="countdown-label">Seg</span>
+                    </div>
+                </div>
+                
+                <div class="scarcity-indicator">
+                    <i data-lucide="alert-circle" class="scarcity-icon"></i>
+                    <span>Apenas 2.847 vagas restantes de 25.000</span>
+                </div>
+                
+                <div class="cta-actions">
+                    <button class="btn btn-cta-enhanced btn-large button-ripple">
+                        Garantir vaga gratuita
+                    </button>
+                    <div class="cta-stats">
+                        <i data-lucide="users"></i>
+                        <span>Mais de 22.153 já se inscreveram</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Complementary Content Section -->
+    <section class="complementary-section">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <h2>Conteúdos complementares</h2>
+                    <p>Tutoriais, dicas e projetos práticos para acelerar seu aprendizado</p>
+                </div>
+                <button class="btn btn-secondary">
+                    Ver tudo
+                    <i data-lucide="arrow-right"></i>
+                </button>
+            </div>
+            
+            <div class="content-grid" id="complementaryGrid">
+                <!-- Complementary content will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <i data-lucide="rocket"></i>
+                        </div>
+                        <span class="logo-text">Treina-Dev</span>
+                    </div>
+                    <p>Transformamos vidas através da educação em tecnologia. Mais de 200.000 pessoas já mudaram suas carreiras conosco.</p>
+                    
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i data-lucide="mail"></i>
+                            <span>contato@Treina-Dev.com.br</span>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="phone"></i>
+                            <span>+55 (47) 99999-9999</span>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="map-pin"></i>
+                            <span>Florianópolis, SC - Brasil</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Plataforma</h3>
+                        <ul>
+                            <li><a href="#">Formações</a></li>
+                            <li><a href="#">Cursos</a></li>
+                            <li><a href="#">Eventos</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Podcast</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Comunidade</h3>
+                        <ul>
+                            <li><a href="#">Discord</a></li>
+                            <li><a href="#">Fórum</a></li>
+                            <li><a href="#">GitHub</a></li>
+                            <li><a href="#">Meetups</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Empresa</h3>
+                        <ul>
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="#">Carreiras</a></li>
+                            <li><a href="#">Imprensa</a></li>
+                            <li><a href="#">Contato</a></li>
+                            <li><a href="#">Termos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Newsletter -->
+            <div class="newsletter">
+                <h3>Fique por dentro das novidades</h3>
+                <p>Receba dicas, tutoriais e oportunidades exclusivas direto no seu email</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Seu melhor email">
+                    <button class="btn btn-primary">Inscrever-se</button>
+                </div>
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    © 2024 Treina-Dev. Todos os direitos reservados.
+                </div>
+                
+                <div class="footer-social">
+                    <a href="#" class="social-link">
+                        <i data-lucide="github"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i data-lucide="twitter"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i data-lucide="instagram"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i data-lucide="linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i data-lucide="youtube"></i>
+                    </a>
+                </div>
+                
+                <button class="back-to-top" id="backToTop">
+                    Voltar ao topo
+                    <i data-lucide="arrow-up"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">
+        <i data-lucide="arrow-up"></i>
+    </button>
+
+    <!-- Floating Action Button -->
+    <div class="fab" id="helpFab" title="Precisa de ajuda?">
+        <i data-lucide="message-circle"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
